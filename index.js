@@ -295,6 +295,6 @@ function setQuality(value) {
 
 function downloadImage() {
     createArray();
-        document.getElementById("dwl").href=bw.toDataURL("image/png").replace("image/png", "image/octet-stream");
+        document.getElementById("dwl").href=bw.toDataURL("image/png");
 
 }
