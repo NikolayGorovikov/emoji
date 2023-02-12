@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emoji</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+<!--<button onclick="getString()">get string</button>-->
+<!--<input type="range" step="0.1" min="0.1" max="20" value="1" oninput="changeScale(event.target.value)">-->
+<div class="flin"><input type="file" oninput="uploadImage(event)"></div>
+<div class="compression">Уровень сжатия оригинала <input type="range" step="0.01" min="0.05" max="1" value="1" oninput="setCompression(event.target.value)"><div class="compressionValue">1</div></div>
+<div class="quality">Качество emoji <input type="text" oninput="setQuality(event.target.value)" value="10">px</div>
+<div class="maxQuality">Максимальное качество emoji: <div class="maxIn">Загрузите изображение</div></div>
+<a id="dwl" onclick="downloadImage()" download="emoji1.png">download</a>
+
+
+
+<!--<button onclick="createArray()">draw!</button>-->
+<!--<button onclick="removeMainImage()">remove main image</button>-->
+<!--red<input id="red" type="range" min="0" max="256" step="1" value="100" oninput="changeColor(event)">-->
+<!--green<input id="green" type="range" min="0" max="256" step="1" value="100" oninput="changeColor(event)">-->
+<!--blue<input id="blue" type="range" min="0" max="256" step="1" value="100" oninput="changeColor(event)">-->
+<!--<button onclick="setDice()" id="diceChange">Черные кубики</button>-->
+<!--<button onclick="pasteImage()">paste image</button>-->
+<br>
+    <canvas id="pc"></canvas>
+    <canvas id="bw"></canvas>
+<!--    <canvas id="can1" width="400" height="400"></canvas>-->
+<!--<canvas id="can2" width="400" height="400"></canvas>-->
+<!--<canvas id="can3" width="400" height="400"></canvas> <br> <canvas id="can4" width="400" height="400"></canvas>-->
+<!--<canvas id="can5" width="400" height="400"></canvas>-->
+<!--<canvas id="can6" width="400" height="400"></canvas> <br>-->
+<!--<canvas id="can7" width="400" height="400"></canvas>-->
+<!--<canvas id="can8" width="400" height="400"></canvas>-->
+<!--<canvas id="can9" width="400" height="400"></canvas>-->
+</body>
+</html>

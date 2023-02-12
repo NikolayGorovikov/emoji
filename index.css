@@ -1,0 +1,13 @@
+#invisible{
+    /*display: none;*/
+
+}
+canvas{
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.maxIn, .compressionValue{
+    display: inline-block;
+}
